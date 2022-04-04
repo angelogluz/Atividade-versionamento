@@ -17,7 +17,7 @@ Você será avaliado por conseguir realizar as atividades propostas e também (t
 - [ ] A escrita de mensagens de commits deve seguir o padrão do repositório, obrigatoriamente.
 - [ ] Os commits não devem agrupar muito código.
 - [ ] Altere o Readme do projeto e te adicione os membros da equipe como contribuidores.
-- [ ] **APAGAR OS INFORMAÇÕES DE EXEMPLO DO TEMPLATE DE MR E INSERIR AS DO MR DO TIME**
+- [ ] **APAGAR AS INFORMAÇÕES DE EXEMPLO DO TEMPLATE DE MR E INSERIR AS DO MR DO TIME**
 
 ## 🚌Entrega🚌
 - A entrega da atividade se dá diante da abertura do merge request e aprovação.
