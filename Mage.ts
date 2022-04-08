@@ -4,8 +4,10 @@ import { Util } from "./Util";
 export class Mage extends Personagem {
     private _intelecto: number;
     private _velocidade: number;
+    private _vidas: number;
     constructor(nome: string) {
         super(nome);
+        this._vidas = (10);
         this._armadura = Util.randomizar(100, 1_000);
         this._vidaMaxima = Util.randomizar(200, 1_000);
         this._vidaAtual = Util.randomizar(40, this._vidaMaxima);
