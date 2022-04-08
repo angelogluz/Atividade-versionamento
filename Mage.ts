@@ -11,5 +11,6 @@ export class Mage extends Personagem {
         this._vidaAtual = Util.randomizar(40, this._vidaMaxima);
         this._intelecto = Util.randomizar(100, 1_000);
         this._velocidade = Util.randomizar(10, 2_000);
+        this._velocidadeDeCast = Util.randomizar(10, 3_000);
     }
 }
