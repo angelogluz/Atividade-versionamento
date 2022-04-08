@@ -5,6 +5,7 @@ export class Priest extends Personagem {
     private _espirito: number;
     private _versatilidade: number;
     private _dinheiro: number;
+    private _municao: number;
     constructor(nome: string) {
         super(nome);
         this._armadura = Util.randomizar(100, 1_000);
@@ -13,5 +14,6 @@ export class Priest extends Personagem {
         this._espirito = Util.randomizar(100, 1_000);
         this._versatilidade = Util.randomizar(100, 1_000);
         this._dinheiro = Util.randomizar(100, 1_000);
+        this._municao = Util.randomizar(100, 1_000);
     }
 }
