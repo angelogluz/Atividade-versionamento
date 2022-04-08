@@ -22,3 +22,4 @@ $ npx ts-node main
 <a href="https://github.com/angelogluz"><img src="https://github.com/angelogluz.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/AndreCGeraldo"><img src="https://github.com/AndreCGeraldo.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/dumoresco"><img src="https://github.com/dumoresco.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/paulosisti"><img src="https://github.com/paulosisti.png" width="45" height="45"></a> &nbsp;
