@@ -17,9 +17,13 @@ export class Mage extends Personagem {
         this._agilidade = Util.randomizar(10, 1_000);
         this._forca = Util.randomizar(90, 2_000);
 <<<<<<< HEAD
+<<<<<<< HEAD
         this._mana = Util.randomizar(500, 2_000);
 =======
         this._mana = Util.randomizar(900, 2_000);
+>>>>>>> feature/addmana
+=======
+        this._mana = Util.randomizar(500, 2_000);
 >>>>>>> feature/addmana
     }
 }
