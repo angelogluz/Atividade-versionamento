@@ -5,7 +5,7 @@ export class Mage extends Personagem {
     private _intelecto: number;
     private _velocidade: number;
     private _vitalidade: number;
-    constructor(nome: string, intelector: number, velocidade: number, vitalidade: number) {
+    constructor(nome: string, vitalidade: number) {
         super(nome);
         this._armadura = Util.randomizar(100, 1_000);
         this._vidaMaxima = Util.randomizar(200, 1_000);
