@@ -20,3 +20,4 @@ $ npx ts-node main
 ## 🤝 Contribuídores
 
 <a href="https://github.com/angelogluz"><img src="https://github.com/angelogluz.png" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/ricardobotelho"><img src="https://github.com/ricardobotelho.png" width="45" height="45"></a> &nbsp;
