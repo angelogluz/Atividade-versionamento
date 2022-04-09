@@ -12,3 +12,4 @@ let hunter: Personagem = new Hunter("Clamego Hunter")
 console.log("mage :>> ", mage);
 console.log("warrior :>> ", warrior);
 console.log("priest :>> ", priest);
+console.log("hunter :>> ", hunter);
