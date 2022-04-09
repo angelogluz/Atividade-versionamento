@@ -1,3 +1,4 @@
+import { Hunter } from './Hunter';
 import { Priest } from "./Priest";
 import { Warrior } from "./Warrior";
 import { Mage } from "./Mage";
@@ -10,3 +11,4 @@ let priest: Personagem = new Priest("Angelo priest");
 console.log("mage :>> ", mage);
 console.log("warrior :>> ", warrior);
 console.log("priest :>> ", priest);
+console.log("Hunter :>> ", Hunter)
