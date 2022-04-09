@@ -5,6 +5,7 @@ export class Warrior extends Personagem {
     private _forca: number;
     private _agilidade: number;
     private _Defesa: number;
+    private _vigor: number;
 
     constructor(nome: string) {
         super(nome);
@@ -15,5 +16,6 @@ export class Warrior extends Personagem {
         this._forca = Util.randomizar(100, 1_000);
         this._agilidade = Util.randomizar(100, 1_000);
         this._Defesa = Util.randomizar(100, 10_000);
+        this._vigor = Util.randomizar(100, 1_000);
     }
 }
