@@ -10,5 +10,8 @@ export class Personagem {
         this._armadura = Util.randomizar(100, 1_000);
         this._vidaMaxima = Util.randomizar(100, 1_000);
         this._vidaAtual = Util.randomizar(40, this._vidaMaxima);
+        this._energy = Util.randomizar(80, 1_000);
+        this._cicatrizes = Util.randomizar(1, 10)
+
     }
 }
