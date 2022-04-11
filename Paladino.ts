@@ -11,5 +11,7 @@ export class Paladino extends Personagem {
         this._vidaAtual = Util.randomizar(40, this._vidaMaxima);
         this._intelecto = Util.randomizar(100, 1_000);
         this._velocidade = Util.randomizar(10, 2_000);
+        this._energy = Util.randomizar(100, 500);
+        this._cicatrizes = Util.randomizar(1, 2);
     }
 }
