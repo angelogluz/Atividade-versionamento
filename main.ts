@@ -3,7 +3,7 @@ import { Warrior } from "./Warrior";
 import { Mage } from "./Mage";
 import { Personagem } from "./Personagem";
 
-let mage: Personagem = new Mage("Angelo mage");
+let mage: Personagem = new Mage("Pedro mage", 100, 1250);
 let warrior: Personagem = new Warrior("Angelo warrior");
 let priest: Personagem = new Priest("Angelo priest");
 
