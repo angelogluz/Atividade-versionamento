@@ -13,5 +13,7 @@ export class Warlock extends Personagem {
         this._vidaAtual = 100;
         this._carisma = Util.randomizar(100, 1_000);
         this._agilidade = Util.randomizar(100, 1_000);
+        this._energy = Util.randomizar(50, 1_000);
+        this._cicatrizes = Util.randomizar(1, 5);
     }
 }
