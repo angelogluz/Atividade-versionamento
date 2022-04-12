@@ -5,6 +5,8 @@ export class Hunter extends Personagem {
     private _strenght: number;
     private _agility: number;
     private _scent: number;
+    private _speed: number;
+    
 
     constructor(nome: string) {
         
@@ -15,6 +17,7 @@ export class Hunter extends Personagem {
         this._strenght = Util.randomizar(20,800)
         this._agility = Util.randomizar(10,500)
         this._scent = Util.randomizar(50,400)
+        this._speed = Util.randomizar(10,50)
 
     //Adicionado as Skills do Hunter (armadura,vida maxima , vida atual, força, agilidade e fragancia)
 
