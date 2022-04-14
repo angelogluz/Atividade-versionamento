@@ -4,6 +4,7 @@ export class Personagem {
     protected _armadura: number;
     protected _vidaMaxima: number;
     protected _vidaAtual: number;
+    protected _resistencia: number;
 
     constructor(nome: string) {
         this._nome = nome;
@@ -11,4 +12,5 @@ export class Personagem {
         this._vidaMaxima = Util.randomizar(100, 1_000);
         this._vidaAtual = Util.randomizar(40, this._vidaMaxima);
     }
+    
 }
