@@ -4,6 +4,8 @@ import { Util } from "./Util";
 export class Warrior extends Personagem {
     private _forca: number;
     private _agilidade: number;
+    private _evasion: number;
+  
 
     constructor(nome: string) {
         super(nome);
