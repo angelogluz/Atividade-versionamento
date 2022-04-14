@@ -23,3 +23,4 @@ $ npx ts-node main
 <a href="https://github.com/Ulguim"><img src="https://github.com/Ulguim.png" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/diegosmc"><img src="https://avatars.githubusercontent.com/u/5942220?v=4" width="45" height="45"></a> &nbsp;
 <a href="https://github.com/NicolasBrito6"><img src="https://avatars.githubusercontent.com/u/87679319?v=4" width="45" height="45"></a> &nbsp;
+<a href="https://github.com/Paiva07"><img src="https://avatars.githubusercontent.com/u/89980056?v=4" width="45" height="45"></a> &nbsp;
