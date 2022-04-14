@@ -12,6 +12,7 @@ export class Warrior extends Personagem {
         this._vidaAtual = Util.randomizar(20, this._vidaMaxima);
         this._vidaAtual = 100;
         this._forca = Util.randomizar(100, 1_000);
+        this._evasion = Util.randomizar(100, 1_000);
         this._agilidade = Util.randomizar(100, 1_000);
     }
 }
