@@ -11,5 +11,7 @@ export class Priest extends Personagem {
         this._vidaAtual = Util.randomizar(20, this._vidaMaxima);
         this._espirito = Util.randomizar(100, 1_000);
         this._versatilidade = Util.randomizar(100, 1_000);
+        this._poder = Util.randomizar(100, 1_000);
+        
     }
 }
