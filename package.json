@@ -11,6 +11,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/prompt-sync": "^4.1.0",
+    "gitmoji-cli": "^4.13.0",
     "prompt-sync": "^4.2.0"
   }
 }
