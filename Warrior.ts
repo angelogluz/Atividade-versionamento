@@ -4,6 +4,8 @@ import { Util } from "./Util";
 export class Warrior extends Personagem {
     private _forca: number;
     private _agilidade: number;
+    private _evasion: number;
+  
 
     constructor(nome: string) {
         super(nome);
@@ -12,6 +14,7 @@ export class Warrior extends Personagem {
         this._vidaAtual = Util.randomizar(20, this._vidaMaxima);
         this._vidaAtual = 100;
         this._forca = Util.randomizar(100, 1_000);
+        this._evasion = Util.randomizar(100, 1_000);
         this._agilidade = Util.randomizar(100, 1_000);
     }
 }
